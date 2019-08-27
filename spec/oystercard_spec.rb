@@ -1,5 +1,6 @@
-require 'rspec'
+require_relative './lib/oystercard.rb'
 
-describe 'Oystercard' do
+
+describe Oystercard do
 
 end
