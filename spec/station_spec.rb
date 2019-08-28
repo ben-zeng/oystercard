@@ -1,15 +1,15 @@
 require 'station'
-  describe Station do
+     describe Station do
 
-  let (:station_a) {Station.new(1, "Algate") }
+     let (:station_a) {Station.new(1, "Algate") }
 
-  describe "initialize" do
-    it "expect zone passed in to equal instance variable" do
-      expect(station_a.zone).to eq(1)
-    end
+     describe "initialize" do
+       it "expect zone passed in to equal instance variable" do
+         expect(station_a.zone).to eq(1)
+       end
 
-    it "expect name passed in to equal instance variable" do
-      expect(station_a.name).to eq("Algate")
+       it "expect name passed in to equal instance variable" do
+         expect(station_a.name).to eq("Algate")
+        end
      end
-  end
-end
+   end
